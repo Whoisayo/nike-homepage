@@ -40,7 +40,7 @@ a:hover {
 /* headline section */
 .headline {
     text-align: center;
-    padding: 300px 0;
+    padding: 20% 0;
     line-height: 1.5px;
     background-image: url('https://i.pinimg.com/564x/88/3c/12/883c12a791bb9e22d4a2e0f42720cdbb.jpg');
     background-repeat: no-repeat;
@@ -55,8 +55,11 @@ a:hover {
 
 .p1 {
     font-weight: 500;
+    margin-left: 20px;
 }
 
+
+/* Button Section */
 .button {
     text-align: center;
     margin: 2%;
@@ -81,17 +84,111 @@ button:active {
     border: 1px solid royalblue;
 }
 
+/* Latest Section */
 .latest {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-content: center;
     overflow: scroll;
 }
 
+.latest-list img {
+    width: 400px;
+    height: 400px;
+}
+
 .latest-list {
-    display: inline-flex;
-    width: 20%;
+    text-align: center;
+}
+
+/*Trending Section**/
+.trending {
+    display: flex;
+    overflow: scroll;
+}
+
+.trending-list img {
+    width: 400px;
+    height: 400px;
+}
+
+.trending-list {
+    text-align: center;
+}
+
+/*Editorial Section*/
+.editorial {
+    display: flex;
+    overflow: scroll;
+    margin-bottom: 2%;
+}
+
+.editorial-list img {
+    width: 500px;
+    height: 500px;
+}
+
+.editorial-list {
+    text-align: center;
+}
+
+/*footer section*/
+.footer {
+    background-color: burlywood;
+    text-align: center;
+    padding: 50px;
+}
+
+.fa-brands {
+    margin: 5% 2%;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.fa-brands:hover {
+    background-color: white;
+}
+
+@media only screen and (max-width: 430px) {
+    .latest-list img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .trending-list img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .editorial img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .headline h1 {
+        font-size: 1.5rem;
+    }
+
+    .headline p {
+        font-size: 0.7rem;
+    }
     
-    
+    .fa-brands {
+        padding: 5px;
+    }
+
+    .footer p {
+        font-size: 0.5rem;
+    }
+
+    .trending p {
+        font-size: 0.7rem;
+    }
+
+    .latest p {
+        font-size: 0.7rem;
+    }
+
+    .editorial p {
+        font-size: 0.7rem;
+    }
+
 }
