@@ -1,0 +1,97 @@
+html body {
+    background-color: ghostwhite;
+    font-size: 16px;
+    font-family: 'poppins';
+}
+
+.logo {
+    text-align: center;
+}
+.logo img {
+    width: 20%;
+    margin: 2%;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    margin: 0 2%;
+    font-weight: 2000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: royalblue;
+}
+
+.header {
+    margin-bottom: 5%;
+}
+
+/* headline section */
+.headline {
+    text-align: center;
+    padding: 300px 0;
+    line-height: 1.5px;
+    background-image: url('https://i.pinimg.com/564x/88/3c/12/883c12a791bb9e22d4a2e0f42720cdbb.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.headline h1 {
+    font-size: 3rem;
+}
+
+.p1 {
+    font-weight: 500;
+}
+
+.button {
+    text-align: center;
+    margin: 2%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solod black;
+    border-radius: 10px;
+    font-size: 1rem;
+    box-shadow: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: gray;;
+}
+
+button:active {
+    border: 1px solid royalblue;
+}
+
+.latest {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: scroll;
+}
+
+.latest-list {
+    display: inline-flex;
+    width: 20%;
+    
+    
+}
